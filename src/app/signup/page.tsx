@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Button, Flex, FormControl, FormLabel, Input, Link, Text } from '@chakra-ui/react'
 import { signIn } from "next-auth/react";
 
-export default function signUpPage() {
+export default function SignUpPage() {
     const router = useRouter();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

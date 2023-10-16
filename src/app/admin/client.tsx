@@ -66,7 +66,7 @@ export default function ClientSide() {
         <Flex width={"30"} height={"100"} alignContent={"center"} justifyContent={"left"}>
             <Button onClick={handleClick}>Click to Set Your Job Title</Button>
         </Flex>
-        <Button onClick={handleGraphQL}>I solemnly swear i'm up to no good</Button>
+        <Button onClick={handleGraphQL}>{`I solemnly swear i'm up to no good.`}</Button>
         </>)
     )
 }

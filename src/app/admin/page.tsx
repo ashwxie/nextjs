@@ -7,7 +7,7 @@ export default async function AdminPage() {
     const user = session?.user;
 
     return(<>
-    {!user ? (<p>Sorry, you don't have access, please <a href='./signin'>sign in</a>.</p>) 
+    {!user ? (<p>{`Sorry, you don't have access, please `}<a href='./signin'>{`sign in`}</a>{`.`}</p>) 
     : <AdminPageClientSide />}
     </>)
 }
