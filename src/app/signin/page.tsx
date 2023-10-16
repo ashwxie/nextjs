@@ -55,7 +55,7 @@ export default function SignInPage() {
                 { error && <Text color='red'>{error}</Text>}
             </Flex>
             <Flex width={"30"} height={"100"} alignContent={"center"} justifyContent={"left"}>
-                <Link width={'30%'} href='./signup'>Don't have account ? Sign up :D</Link>
+                <Link width={'30%'} href='./signup'>{`Don't have account ? Sign up :D`}</Link>
             </Flex>
             <Flex width={"30"} height={"100"} alignContent={"center"} justifyContent={"left"}>
                 <Button width={'30%'} onClick={() => signIn("github", { callbackUrl })}>Use Github</Button>
