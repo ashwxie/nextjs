@@ -24,8 +24,9 @@ export default function ClientSide() {
                 else if(username || jobTitle) {
                     if(username) return (`Your Username: ${username} \nYou didn't set jobtitle.`)
                     else if(jobTitle) return (`You didn't set username. \nYour Job Title: ${jobTitle}`)
+                }
                 else return (`you didn't set both.`)
-                }                
+                               
             }
             alert(`${result(username, jobTitle)}`);
         }
