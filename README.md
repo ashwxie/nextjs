@@ -15,4 +15,4 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Notice
-Sorry the user will not automatically sign in after signing up successfuly. Please sign in after signing up to get to the protected page(admin).
+Sorry the user will not automatically sign in after signing up successfully. Please sign in after signing up to get to the protected page(admin).
