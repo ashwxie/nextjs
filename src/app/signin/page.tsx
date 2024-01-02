@@ -57,8 +57,8 @@ export default function SignInPage() {
             <Flex width={"30"} height={"100"} alignContent={"center"} justifyContent={"left"}>
                 <Link width={'30%'} href='./signup'>{`Don't have account ? Sign up :D`}</Link>
             </Flex>
-            <Flex width={"30"} height={"100"} alignContent={"center"} justifyContent={"left"}>
+            {/* <Flex width={"30"} height={"100"} alignContent={"center"} justifyContent={"left"}>
                 <Button width={'30%'} onClick={() => signIn("github", { callbackUrl })}>Use Github</Button>
-            </Flex>
+            </Flex> */}
     </>)    
 }
